@@ -1,0 +1,89 @@
+.loopstudios_main__creations__all,
+.loopstudios_main__creations__ses_all__wrapper {
+    padding-inline-end: 32px;
+    padding-inline-start: 32px;
+}
+
+.loopstudios_main__creations__title {
+    text-align: center;
+}
+
+.loopstudios_main__creations__all__details__title {
+    padding-block-end: 26px;
+    padding-block-start: 39px;
+    padding-inline-start: 16px;
+    max-width: 99px;
+    color: #ffffff;
+}
+
+.loopstudios_main__creations__all__details:nth-of-type(1) {
+    background-image: url("../images/mobile/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.loopstudios_main__creations__all__details:nth-of-type(2) {
+    background-image: url("../images/mobile/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.loopstudios_main__creations__all__details:nth-of-type(3) {
+    background-image: url("../images/mobile/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.loopstudios_main__creations__all__details:nth-of-type(4) {
+    background-image: url("../images/mobile/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.loopstudios_main__creations__all__details:nth-of-type(5) {
+    background-image: url("../images/mobile/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.loopstudios_main__creations__all__details:nth-of-type(6) {
+    background-image: url("../images/mobile/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.loopstudios_main__creations__all__details:nth-of-type(7) {
+    background-image: url("../images/mobile/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.loopstudios_main__creations__all__details:nth-of-type(8) {
+    background-image: url("../images/mobile/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.loopstudios_main__creations__ses_all__wrapper {
+    text-align: center;
+    padding-block-end: 54px;
+    padding-block-start: 54px;
+}
+
+.loopstudios_main__creations__ses_all__link {
+    color: #000000;
+    text-transform: uppercase;
+    padding-block-end: 16px;
+    padding-block-start: 16px;
+    border: 2px solid;
+    padding-inline-start: 42px;
+    padding-inline-end: 54px;
+    box-shadow: 0px 1px #000000;
+}
+
+.loopstudios_main__creations__ses_all__link:hover {
+    color: #ffffff;
+    background-color: #000000;
+    box-shadow: none;
+}
+

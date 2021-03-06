@@ -1,0 +1,142 @@
+.loopstudios_header {
+    background-image: url("../images/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    padding-block-end: 54px;
+    padding-block-start: 54px;
+}
+
+.loopstudios_header__logo_wrapper {
+    padding-inline-end: 34%;
+    padding-inline-start: 32px;
+}
+
+.loopstudios_header__logo {
+    width: 200px;
+}
+
+.loopstudios_header__menu__list__link {
+    color: #f7f1f1;
+}
+
+.loopstudios_header__title__wrapper {
+    padding-inline-end: 32px;
+    padding-inline-start: 32px;
+    padding-block-start: 119px;
+    padding-block-end: 58px;
+}
+
+.loopstudios_header__title {
+    max-width: 80%;
+    margin: auto;
+    border: #ffffff solid 3px;
+    padding: 36px;
+}
+
+// Menu
+
+span .icon_hamburger,
+.close_menu {
+    width: 30px;
+}
+
+.loopstudios_header {
+    position: relative;
+}
+
+// .loopstudios_header__menu__label {
+//     position: absolute;
+//     right: 20px;
+// }
+
+.menu_dropdown {
+    display: none;
+}
+
+.loopstudios_header__menu__navigation {
+    padding: 1rem;
+    position: absolute;
+    z-index: 3;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 16px rgba(204, 181, 181, 0.5);
+    transform: translateX(-140%);
+    // transition: transform 0.3s;
+}
+
+[type="checkbox"]:checked ~ header .loopstudios_header__menu__navigation {
+    transform: translateX(0);
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+[type="checkbox"]:checked ~ header .loopstudios_header__menu {
+    padding-block-start: 50px;
+}
+
+[type="checkbox"]:checked ~ header .loopstudios_header__menu__list__link {
+    text-transform: uppercase;
+    margin-inline-start: -43px;
+    font-size: 18px;
+}
+
+body > [type="checkbox"]:checked ~ main {
+    z-index: 1;
+}
+
+@media (min-width: 700px) {
+    .loopstudios_header {
+        background-image: url("../images/desktop/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .loopstudios_header__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .loopstudios_header__menu__list {
+        padding-inline-end: 48px;
+    }
+
+    .loopstudios_header__menu__list__link:hover {
+        color: #f7f1f1;
+        border-block-end: 1px #ffffff solid;
+        padding-block-end: 8px;
+    }
+
+    .loopstudios_header__menu__label,
+    .loopstudios_header__menu__navigation__list__header {
+        display: none;
+    }
+
+    .loopstudios_header__menu__navigation {
+        padding: 1rem;
+        position: absolute;
+        top: 5%;
+        z-index: unset;
+        left: initial;
+        bottom: unset;
+        width: auto;
+        height: auto;
+        box-shadow: none;
+        transform: none;
+        transition: none;
+    }
+
+    .loopstudios_header__title {
+        max-width: 36%;
+        margin: 0;
+        font-size: 51px;
+        border: #ffffff solid 3px;
+        padding: 36px;
+    }
+}
