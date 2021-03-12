@@ -1,0 +1,50 @@
+.loopstudios_footer {
+    background-color: #000000;
+    padding-block-start: 32px;
+    padding-block-end: 48px;
+    text-align: center;
+}
+
+.loopstudios_footer__logo__image {
+    width: 200px;
+}
+
+.loopstudios_footer ul {
+    padding-inline-start: 0;
+}
+
+
+.loopstudios_footer__list {
+    padding-block-start: 24px;
+}
+
+.loopstudios_footer__menu_link {
+    color: #f7f1f1;
+}
+
+.loopstudios_footer__menu_link:hover {
+    color: #ffffff;
+    border-block-end: 1px #ffffff solid;
+    padding-block-end: 8px;
+}
+
+.loopstudios_footer__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-block-start: 32px;
+}
+
+.loopstudios_footer__icons__link:hover {
+    color: #ffffff;
+    border-block-end: 1px #ffffff solid;
+    padding-block-end: 8px;    
+}
+
+.loopstudios_footer__icons__list {
+    padding-inline-end: 16px;
+}
+
+.loopstudios_footer__image {
+    width: 32px;
+}
